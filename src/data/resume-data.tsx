@@ -1,11 +1,6 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo
+    ConsultlyLogo
 } from "@/images/logos";
 
 export const RESUME_DATA = {
@@ -20,6 +15,7 @@ export const RESUME_DATA = {
     personalWebsiteUrl: "https://fexx.dev",
     contact: {
         email: "fexxdev@gmail.com",
+        tel: null,
         social: [
             {
                 name: "GitHub",
@@ -47,7 +43,7 @@ export const RESUME_DATA = {
         },
     ],
     work: [
-         {
+        {
             company: "Nebula S.R.L.",
             link: "https://teamnebula.it/",
             badges: ["Hybrid"],
